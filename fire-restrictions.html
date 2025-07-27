@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fire Restrictions – Lafayette Fire Department</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <style>
+        :focus { outline: 3px solid #000 !important; }
+
+        .side-nav { background-color: #2c3e50; padding: 10px; border-radius: 5px; }
+        .side-nav a { color: #fff; }
+        .side-nav a.active { background-color: #34495e; }
+
+        .sticky-alert { background-color: #B00020; color: #fff; padding: 10px; text-align: center; }
+
+        .header-hero { background: url('lafayette-city-header.png') center/cover no-repeat; min-height: 200px; position: relative; }
+        .header-hero img { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); max-width: 150px; height: auto; }
+
+        footer { background-color: #1e3a56; color: #fff; padding: 20px 0; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <!-- Header with background image and centered logo -->
+    <header class="header-hero">
+        <img src="logo.png" alt="City of Lafayette Logo">
+    </header>
+
+
+    <div class="sticky-alert">FIRE BAN IN EFFECT – LEVEL&nbsp;2 RESTRICTIONS ACTIVE</div>
+
+    <main class="container my-4">
+        <div class="row">
+            <!-- Side navigation -->
+            <nav class="col-md-3 side-nav" aria-label="Section navigation">
+                <ul class="nav flex-column">
+                    <li><a class="nav-link" href="index.html">Home</a></li>
+                    <li><a class="nav-link" href="#">Car Seat Checks</a></li>
+                    <li><a class="nav-link active" href="fire-restrictions.html">Fire Restrictions</a></li>
+                    <li><a class="nav-link" href="#">Recruitment</a></li>
+                    <li><a class="nav-link" href="#">Emergency Preparedness</a></li>
+                </ul>
+            </nav>
+
+            <!-- Main content -->
+            <section class="col-md-9">
+                <h1>Fire Restrictions</h1>
+                <p><strong>Current Status:</strong> LEVEL&nbsp;2 – Severe Restrictions (No open burning, fireworks, or outdoor fires permitted.)</p>
+
+                <!-- Map retained in original location & size -->
+                <img src="wildfiremap.png" alt="Map showing current fire restriction area" class="img-fluid my-3">
+
+                <h2 class="h5">What LEVEL&nbsp;2 means for you</h2>
+                <ul>
+                    <li>No campfires, fire pits, or chimineas — even if you have a permit.</li>
+                    <li>No charcoal grills or wood-burning stoves outdoors. Gas grills are <em>allowed</em> at private residences.</li>
+                    <li>All fireworks and pyrotechnics are strictly prohibited.</li>
+                    <li>No smoking in open spaces, parks, or trails. Smoking is allowed only inside buildings or enclosed vehicles.</li>
+                    <li>No outdoor welding or use of open-flame torches.</li>
+                    <li>Chainsaw operation requires a spark-arresting device and nearby fire extinguisher.</li>
+                </ul>
+
+                <h2 class="h5 mt-4">Fire Restriction Levels</h2>
+                <ul>
+                    <li><strong>Level&nbsp;1:</strong> Limited burning in designated areas only.</li>
+                    <li><strong>Level&nbsp;2:</strong> Complete outdoor burning ban in effect.</li>
+                </ul>
+
+                <!-- Level images restored -->
+                <div class="row g-3">
+                    <div class="col-sm-6 text-center">
+                        <img src="placeholder-level1.png" alt="Level 1 Restrictions visual" class="img-fluid rounded shadow-sm">
+                        <p class="small mt-1">Level 1 visual guide</p>
+                    </div>
+                    <div class="col-sm-6 text-center">
+                        <img src="placeholder-level2.png" alt="Level 2 Restrictions visual" class="img-fluid rounded shadow-sm">
+                        <p class="small mt-1">Level 2 visual guide</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Shared footer -->
+    <footer class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <strong>CONTACT&nbsp;US</strong><br>
+                    City of Lafayette<br>
+                    1290 S. Public Road<br>
+                    Lafayette, CO 80026<br>
+                    Phone: (303) 665-5588
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <strong>QUICK&nbsp;LINKS</strong>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-underline">City Newsletters</a></li>
+                        <li><a href="#" class="text-white text-decoration-underline">Online Payments</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <strong>SITE&nbsp;LINKS</strong>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-underline">Accessibility</a></li>
+                        <li><a href="#" class="text-white text-decoration-underline">Site Map</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
